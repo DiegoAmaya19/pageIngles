@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.formCorreo{
+    background-color: rgb(90, 83, 83);
+    padding: 15px;
+}
+
+.form-label{
+    display: block;
+    text-align: center;
+}
+
+.form-input{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.content-button{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
