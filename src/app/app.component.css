@@ -1,0 +1,16 @@
+.barra-navegacion{
+    padding: 25px;
+    background: linear-gradient(#004, #127);
+    box-sizing: border-box;
+}
+
+.direccion{
+    text-decoration: none;
+    cursor: pointer;
+    background: rgb(173, 173, 173);
+    color: black;
+    border-radius: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
