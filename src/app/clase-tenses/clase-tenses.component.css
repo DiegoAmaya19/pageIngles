@@ -5,12 +5,9 @@
 }
 
 .div{
-   padding: 10px 0 10px 20px; 
+   padding: 10px 0 10px 20px;
 }
 
-/* .sub-menu{
-    
-} */
 
 .sub-enlace{
     display: block;
@@ -18,21 +15,30 @@
     text-decoration: none;
     font-size: 18px;
     color: bisque;
+    text-shadow: #000000 5px 5px;
 }
 
 .seccion{
+    border-radius: 18px 18px 0 0;
     background: #2b2a2a8a;
     font-weight: 600;
+    margin-top: 20px;
+    box-shadow: #111 5px 5px 10px;
 }
 
 .seccion-titulo{
+    box-shadow: #111 5px 5px 10px;
+    border-radius: 18px 18px 0 0;
     margin: 0;
     text-align: center;
-    background: #5117;
+    background: rgba(145, 2, 2, 0.829);
+    padding: 7px;
+    /* text-shadow: #111 3px 3px 10px; */
 }
 
 .seccion-sub-titulo{
     text-align: center;
+    margin: 0;
 }
 
 .text-es{
