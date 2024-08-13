@@ -4,4 +4,12 @@
 
 body{
     margin: 0;
+    background: linear-gradient(#000, #111, #222);
+}
+
+*{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
 }

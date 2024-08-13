@@ -1,0 +1,44 @@
+.titulo-clase{
+    text-align: center;
+    background-color: rgba(61, 61, 61, 0.644);
+    padding: 15px 0;
+}
+
+.div{
+   padding: 10px 0 10px 20px; 
+}
+
+/* .sub-menu{
+    
+} */
+
+.sub-enlace{
+    display: block;
+    margin: 7px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: bisque;
+}
+
+.seccion{
+    background: #2b2a2a8a;
+    font-weight: 600;
+}
+
+.seccion-titulo{
+    margin: 0;
+    text-align: center;
+    background: #5117;
+}
+
+.seccion-sub-titulo{
+    text-align: center;
+}
+
+.text-es{
+    color: brown;
+}
+
+.text-en{
+    color: rgb(0, 75, 161);
+}
