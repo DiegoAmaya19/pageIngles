@@ -5,13 +5,19 @@
 }
 
 .div{
-   padding: 10px 0 10px 20px;
+    height: 130px;
+    padding: 10px 20px;
 }
 
+.sub-menu{
+
+    height: 200px;
+
+}
 
 .sub-enlace{
     display: block;
-    margin: 7px 0;
+    margin: 17px 0;
     text-decoration: none;
     font-size: 18px;
     color: bisque;
@@ -22,8 +28,8 @@
     border-radius: 18px 18px 0 0;
     background: #2b2a2a8a;
     font-weight: 600;
-    margin-top: 20px;
     box-shadow: #111 5px 5px 10px;
+    margin-top: 10px;
 }
 
 .seccion-titulo{
@@ -33,7 +39,12 @@
     text-align: center;
     background: rgba(145, 2, 2, 0.829);
     padding: 7px;
-    /* text-shadow: #111 3px 3px 10px; */
+    font-size: 28px;
+}
+
+.sub-seccion-future{
+    display: flex;
+    justify-content: space-between;
 }
 
 .seccion-sub-titulo{
