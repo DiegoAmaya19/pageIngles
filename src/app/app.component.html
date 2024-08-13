@@ -1,6 +1,18 @@
 <nav class="barra-navegacion">
 
-    <a routerLink="aporteCorreo" class="direccion">Ir a ingresar correo</a>
+    @if(menu){
+
+        <div class="content-menu">
+
+            <a routerLink="aporteCorreo" class="direccion">Ir a ingresar correo</a>
+            <a routerLink="" class="direccion">Tesess</a>
+            <a routerLink="" class="direccion">Otra opcion</a>
+
+        </div>
+        
+    }
+
+    <button class="button-menu" (click)="muestraMenu()">Menu</button>
 
 </nav>
 

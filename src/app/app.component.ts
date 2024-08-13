@@ -10,4 +10,17 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   
+  menu:boolean = false;
+
+  muestraMenu(){
+
+    if(this.menu){
+
+      this.menu = false;
+
+    }else{
+      this.menu = true;
+    }
+  }
+
 }
