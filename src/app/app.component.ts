@@ -10,6 +10,8 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   
+  valorBarraNavegacion = "barra-navegacion";
+
   menu:boolean = false;
 
   muestraMenu(){
@@ -21,6 +23,27 @@ export class AppComponent {
     }else{
       this.menu = true;
     }
+  }
+
+  scrollea($event:Event){
+
+    const target = $event.target as HTMLElement;
+    const valorScroll = target.scrollTop;
+
+    console.log("Scroll desde el div-main"+valorScroll);
+
+    if(valorScroll > 250){
+
+      console.log(valorScroll);
+
+      this.valorBarraNavegacion = "barra-navegacion-nueva";
+
+    }else{
+      
+      this.valorBarraNavegacion = "barra-navegacion";
+
+    }
+
   }
 
 }
