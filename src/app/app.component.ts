@@ -32,16 +32,19 @@ export class AppComponent {
 
     console.log("Scroll desde el div-main"+valorScroll);
 
-    if(valorScroll > 250){
+    if(valorScroll > 200){
+      this.valorBarraNavegacion = "barra-navegacion-animacion";
+    
+      if(valorScroll > 250){
 
-      console.log(valorScroll);
-
-      this.valorBarraNavegacion = "barra-navegacion-nueva";
-
+        console.log(valorScroll);
+  
+        this.valorBarraNavegacion = "barra-navegacion-nueva";
+  
+      }
+    
     }else{
-      
       this.valorBarraNavegacion = "barra-navegacion";
-
     }
 
   }

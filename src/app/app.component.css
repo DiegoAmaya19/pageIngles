@@ -20,18 +20,69 @@ a {
     justify-content: end;
 }
 
+.barra-navegacion-animacion{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: 18px 22px;
+    background: linear-gradient(#004, #127);
+    display: flex;
+    justify-content: end;
+    animation-name: anima;
+    animation-duration: 5s;
+    animation-iteration-count:initial;
+}
+
 .barra-navegacion-nueva{
     position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
     padding: 18px 22px;
-    background: transparent;
+    background: linear-gradient(#004, #127);
     display: flex;
     justify-content: end;
+    background: transparent;
+}
+
+@keyframes anima{
+
+    0%{
+        height: 60px;
+    }
+
+    16%{
+        height: 50px;
+    }
+
+    32%{
+        height: 40px;
+    }
+
+    48%{
+        height: 30px;
+    }
+
+    64%{
+        height: 20px;
+    }
+
+    80%{
+        height: 10px;
+    }
+
+    96%{
+        height: 5px;
+    }
+
+    100%{
+        height: 1px;
+    }
 }
 
 .button-menu{
+    height: 35px;
     padding: 7px 15px;
     box-sizing: border-box;
     border-radius: 10px;
