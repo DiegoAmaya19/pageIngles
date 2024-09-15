@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { explicacionComponent } from '../explicacion/explicacion';
 
 @Component({
   selector: 'app-clase-tenses',
   standalone: true,
-  imports: [explicacionComponent],
+  imports: [],
   templateUrl: './clase-tenses.component.html',
   styleUrl: './clase-tenses.component.css'
 })
