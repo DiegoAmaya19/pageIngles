@@ -1,12 +1,14 @@
 import { Routes } from '@angular/router';
 import { AporteCorreoComponent } from './aporte-correo/aporte-correo.component';
-import { ClaseTensesComponent } from './clase-tenses/ejmplos/clase-tenses.component';
-import { explicacionComponent } from './clase-tenses/explicacion/explicacion';
+import { PageMainComponent } from './page-main-welcome/page-main.component';
+import { MenuOpcionesComponent } from './menu-opciones/menu-opciones.component';
 
 export const routes: Routes = [
     
+    {path: '', redirectTo: '/pageMain', pathMatch: 'full' },
+    {path: 'pageMain', component: PageMainComponent},
+    {path: 'menuOpciones', component: MenuOpcionesComponent},
     {path: 'aporteCorreo', component: AporteCorreoComponent},
-    {path: 'explicaionTenses', component: explicacionComponent},
-    {path: 'claseTenses', component: ClaseTensesComponent}
+    {path: 'claseTenses', loadChildren: () => import('./clase-tenses/routes-tenses').then(m => m.ROUTES_TENSES)}
 
 ];

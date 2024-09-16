@@ -1,0 +1,22 @@
+.titulo-menu-principal{
+    margin-top: 25px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    background: linear-gradient(#400, #800);
+}
+
+.link-clase-tenses1{
+    display: block;
+    background: linear-gradient(#007, #003);
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 15px;
+    margin: 15px 20px 0 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(150, 148, 148);
+}

@@ -1,25 +1,4 @@
-<div (scroll)="scrollea($event)" class="div-main">
-
-    <nav [class]="valorBarraNavegacion">
-
-    @if(menu){
-
-        <div class="content-menu">
-
-            <a routerLink="aporteCorreo" class="direccion" (click)="muestraMenu()">Ir a ingresar correo</a>
-            <a routerLink="claseTenses" class="direccion" (click)="muestraMenu()">Clase 'Teses'</a>
-            <a routerLink="explicaionTenses" class="direccion" (click)="muestraMenu()">Teses Explication</a>
-            <a routerLink="" class="direccion" (click)="muestraMenu()">Otra opcion</a>
-
-        </div>
-        
-    }
-
-    <button class="button-menu" (click)="muestraMenu()">Menu</button>
-
-    </nav>
-
+<div class="div-main">
     <router-outlet></router-outlet>
-
 </div>
 
