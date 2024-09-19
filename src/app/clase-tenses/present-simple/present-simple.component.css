@@ -51,8 +51,10 @@
 
 .text-add{
     display: block;
-    margin-top: 7px;
+    margin-top: -1px;
+    padding: 3px 10px;
     margin-left: 10px;
+    border: #111 solid 1px;
 }
 
 .resaltar{
@@ -95,3 +97,19 @@
 .text-sombra{
     text-shadow: #111111 5px 5px 2px;
 }
+
+.div-audio{
+    bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.audio{
+    display: block;
+    border-radius: 20px;
+    height: 60px;
+    width: 75%;
+}
+
