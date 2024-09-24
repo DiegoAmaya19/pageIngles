@@ -113,3 +113,21 @@
     width: 75%;
 }
 
+.ejercicios{
+    padding: 20px;
+}
+
+.texto{
+    padding: 10px;
+    text-align: justify;
+}
+
+.ejercicios h3{
+    text-align: center;
+}
+
+.sub-explication{
+    display: block;
+    background-color: rgba(17, 65, 97, 0.2);
+    margin-top: 20px;
+}

@@ -1,0 +1,133 @@
+.seccion{
+    height: 100vh;
+    border-radius: 18px 18px 0 0;
+    background: #2b2a2a8a;
+    font-weight: 600;
+    box-shadow: #111 5px 5px 10px;
+}
+
+.seccion-titulo{
+    height: 10%;
+    box-shadow: #111 5px 5px 10px;
+    text-align: center;
+    padding-top: 13px;
+    background: rgba(145, 2, 2, 0.829);
+    font-size: 28px;
+}
+
+.seccion-explication{
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(37, 48, 56);
+}
+
+.seccion-sub-titulo{
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 15px;
+    width: 80%;
+    background: rgba(10,10,10,0.2);
+    border-radius: 20px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.sub-titulo-segundo{
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 15px;
+    width: 80%;
+    background: rgba(50, 77, 95, 0.2);
+    border-radius: 20px;
+    padding-top: 7px;
+    font-size: 18px;
+    border: solid black 1px;
+}
+
+.explication{
+    padding: 10px;
+    text-align: justify;
+}
+
+.text-add{
+    display: block;
+    margin-top: -1px;
+    padding: 3px 10px;
+    margin-left: 10px;
+    border: #111 solid 1px;
+}
+
+.resaltar{
+    background: rgb(33, 95, 153);
+}
+
+.text-add-estructur{
+    background: rgb(33, 95, 153);
+    /* margin-left: 10px; */
+}
+
+.ejemplos{
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(37, 48, 56);
+}
+
+.ejemplo-completo{
+    background: rgb(46, 41, 32);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.div{
+    text-shadow: #111111 5px 5px 2px;
+    height: 30%;
+    padding: 40px 40px 10px 40px;
+    /* border: solid #000000 1px; */
+}
+
+.text-es{
+    color: brown;
+}
+
+.text-en{
+    color: rgb(0, 75, 161);
+}
+
+.text-sombra{
+    text-shadow: #111111 5px 5px 2px;
+}
+
+.div-audio{
+    bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.audio{
+    display: block;
+    border-radius: 20px;
+    height: 60px;
+    width: 75%;
+}
+
+.ejercicios{
+    padding: 20px;
+}
+
+.texto{
+    padding: 10px;
+    text-align: justify;
+}
+
+.ejercicios h3{
+    text-align: center;
+}
+
+.sub-explication{
+    display: block;
+    background-color: rgba(17, 65, 97, 0.2);
+    margin-top: 20px;
+}
