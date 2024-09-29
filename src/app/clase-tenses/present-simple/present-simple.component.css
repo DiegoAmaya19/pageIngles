@@ -6,12 +6,17 @@
     box-shadow: #111 5px 5px 10px;
 }
 
+.barra-navegacion{
+    margin: 0;
+    padding-top: 10px;
+    background: linear-gradient(rgb(2, 2, 43), rgb(27, 32, 56));
+    height: 60px;
+    box-shadow: #000000 40px 40px 8px;
+    /* text-decoration: solid; */
+}
+
 .seccion-titulo{
-    height: 10%;
-    box-shadow: #111 5px 5px 10px;
     text-align: center;
-    padding-top: 13px;
-    background: rgba(145, 2, 2, 0.829);
     font-size: 28px;
 }
 
@@ -30,6 +35,7 @@
     border-radius: 20px;
     padding-top: 7px;
     font-size: 20px;
+    border: #111 solid 1px;
 }
 
 .sub-titulo-segundo{
@@ -62,7 +68,10 @@
 }
 
 .text-add-estructur{
-    background: rgb(33, 95, 153);
+    background: rgba(24, 41, 54, 0.884);
+    border-radius: 15px;
+    border: #111 solid 2px;
+    padding: 5px;
     /* margin-left: 10px; */
 }
 
@@ -73,7 +82,7 @@
 }
 
 .ejemplo-completo{
-    background: rgb(46, 41, 32);
+    background: rgb(136, 90, 38);
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -130,4 +139,7 @@
     display: block;
     background-color: rgba(17, 65, 97, 0.2);
     margin-top: 20px;
+    border: #111 solid 1px;
+    border-radius: 15px;
+    padding: 6px;
 }
