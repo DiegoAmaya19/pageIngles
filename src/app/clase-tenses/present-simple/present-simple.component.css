@@ -1,41 +1,57 @@
 .seccion{
-    height: 100vh;
-    border-radius: 18px 18px 0 0;
-    background: #2b2a2a8a;
+    font-family: cursive;
+    background: #32393f;
     font-weight: 600;
-    box-shadow: #111 5px 5px 10px;
 }
 
 .barra-navegacion{
-    margin: 0;
-    padding-top: 10px;
+    display: flex;
+    margin-bottom: 15px;
     background: linear-gradient(rgb(2, 2, 43), rgb(27, 32, 56));
-    height: 60px;
-    box-shadow: #000000 40px 40px 8px;
-    /* text-decoration: solid; */
+    height: 80px;
+    box-shadow: #000 0 10px 12px;
+    padding: 18px 20% 0 15px;
+}
+
+.divLogo{
+    width: 30%;
+    height: 80%;
+}
+
+.logo_LearnEnglish{
+    background: #6766;
+    display: block;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 7px;
+    max-width: 120px;
 }
 
 .seccion-titulo{
+    width: 70%;
     text-align: center;
-    font-size: 28px;
-}
-
-.seccion-explication{
-    padding: 10px;
-    font-size: 18px;
-    background: rgb(37, 48, 56);
+    font-size: 25px;
 }
 
 .seccion-sub-titulo{
     text-align: center;
-    margin: 10px auto;
-    padding-bottom: 15px;
-    width: 80%;
-    background: rgba(10,10,10,0.2);
-    border-radius: 20px;
-    padding-top: 7px;
-    font-size: 20px;
-    border: #111 solid 1px;
+    margin: 0;
+    color: rgb(60, 101, 139);
+    font-size: 25px;
+}
+
+.seccion-explication{
+    margin: 0;
+    padding: 0 15px;
+    font-size: 18px;
+    text-align: justify;
+    color: bisque;
+}
+
+.explication{
+    padding: 10px;
+    text-align: justify;
 }
 
 .sub-titulo-segundo{
@@ -50,29 +66,18 @@
     border: solid black 1px;
 }
 
-.explication{
-    padding: 10px;
-    text-align: justify;
+.text-add-estructur{
+    color: tomato;
+    display: block;
+    text-align: center;
 }
 
-.text-add{
+.text-add-ejemplo{
     display: block;
     margin-top: -1px;
     padding: 3px 10px;
     margin-left: 10px;
     border: #111 solid 1px;
-}
-
-.resaltar{
-    background: rgb(33, 95, 153);
-}
-
-.text-add-estructur{
-    background: rgba(24, 41, 54, 0.884);
-    border-radius: 15px;
-    border: #111 solid 2px;
-    padding: 5px;
-    /* margin-left: 10px; */
 }
 
 .ejemplos{
@@ -82,7 +87,7 @@
 }
 
 .ejemplo-completo{
-    background: rgb(136, 90, 38);
+    background: rgb(36, 53, 66);
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
