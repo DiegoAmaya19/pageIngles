@@ -1,5 +1,5 @@
 .seccion{
-    font-family: cursive;
+    font: oblique bold 120% cursive;
     background: #32393f;
     font-weight: 600;
 }
@@ -19,7 +19,7 @@
 }
 
 .logo_LearnEnglish{
-    background: #6766;
+    background: rgb(100, 35, 35);
     display: block;
     width: 90%;
     height: 90%;
@@ -32,6 +32,7 @@
     width: 70%;
     text-align: center;
     font-size: 25px;
+    color: tomato;
 }
 
 .seccion-sub-titulo{
