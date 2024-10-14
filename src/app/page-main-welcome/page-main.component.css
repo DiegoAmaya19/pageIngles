@@ -23,7 +23,7 @@ a {
 
 .cont-saludo{
     display: flex;
-    height: 45%;
+    height: 35%;
     align-items: end;
     justify-content: center;
 }
@@ -47,11 +47,11 @@ a {
 }
 
 .div_logoMain{
-    height: 150px;
+    height: 170px;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .logoMain{
@@ -64,7 +64,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .anchor-inicia{
