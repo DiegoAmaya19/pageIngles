@@ -7,7 +7,7 @@
 .barra-navegacion{
     display: flex;
     margin-bottom: 15px;
-    background: linear-gradient(rgb(2, 2, 43), rgb(27, 32, 56));
+    background: linear-gradient(rgb(2, 2, 43), #1b2038);
     height: 80px;
     box-shadow: #000 0 10px 12px;
     padding: 0 20% 0 15px;

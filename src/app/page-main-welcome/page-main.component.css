@@ -19,7 +19,6 @@ a {
     width: 100%;
     height: calc(100vh);
     background: linear-gradient(#400,#004);
-   
 }
 
 .cont-saludo{
@@ -47,6 +46,19 @@ a {
     color: #a8a3a3;
 }
 
+.div_logoMain{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoMain{
+    width: auto;
+    height: 150px;
+}
+
 .cont-boton-iniciar{
     height: 10%;
     display: flex;
@@ -69,8 +81,6 @@ a {
     font-size: 30px;
     background-color: rgb(82, 0, 0);
 }
-
-
 
 .barra-navegacion-animacion{
     position: fixed;
