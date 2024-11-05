@@ -1,47 +1,59 @@
 .seccion{
-    height: 100vh;
-    border-radius: 18px 18px 0 0;
-    background: #2b2a2a8a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #32393f;
     font-weight: 600;
-    box-shadow: #111 5px 5px 10px;
+    height: 100%;
+}
+
+.barra-navegacion{
+    display: flex;
+    margin-bottom: 15px;
+    background: linear-gradient(rgb(2, 2, 43), #1b2038);
+    height: 80px;
+    box-shadow: #000 0 10px 12px;
+    padding: 0 20% 0 15px;
+}
+
+.divLogo{
+    padding-top: 5px; 
+    width: 30%;
+    height: 60%;
+    cursor: pointer;
+}
+
+.logo_LearnEnglish{
+    /* background: rgb(100, 35, 35); */
+    display: block;
+    width: auto;
+    height: 150%;
+    border-radius: 20px;
+    /* padding: 10px; */
+    max-width: 200px;
 }
 
 .seccion-titulo{
-    height: 10%;
-    box-shadow: #111 5px 5px 10px;
+    width: 70%;
     text-align: center;
-    padding-top: 13px;
-    background: rgba(145, 2, 2, 0.829);
-    font-size: 28px;
-}
-
-.seccion-explication{
-    padding: 10px;
-    font-size: 18px;
-    background: rgb(37, 48, 56);
+    font-size: 25px;
+    color:#ffe4c4;
+    padding-top: 25px;
+    padding-left: 25%;
 }
 
 .seccion-sub-titulo{
     text-align: center;
-    margin: 10px auto;
-    padding-bottom: 15px;
-    width: 80%;
-    background: rgba(10,10,10,0.2);
-    border-radius: 20px;
-    padding-top: 7px;
-    font-size: 20px;
+    margin: 0;
+    color:#ff6347;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
-.sub-titulo-segundo{
-    text-align: center;
-    margin: 10px auto;
-    padding-bottom: 15px;
-    width: 80%;
-    background: rgba(50, 77, 95, 0.2);
-    border-radius: 20px;
-    padding-top: 7px;
+.seccion-explication{
+    margin: 0;
+    padding: 0 15px;
     font-size: 18px;
-    border: solid black 1px;
+    text-align: justify;
+    color: bisque;
 }
 
 .explication{
@@ -49,7 +61,30 @@
     text-align: justify;
 }
 
-.text-add{
+.sub-titulo-segundo{
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    width: 80%;
+    color:#ff6347;
+    background: rgb(27, 32, 56);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: solid black 1px;
+    /* text-shadow: none !important; */
+}
+
+.text-add-estructur{
+    color:#ffe4c4;
+    display: block;
+    text-align: center;
+}
+
+.text-add-ejemplo{
+    color:bisque;
+    text-align: center;
     display: block;
     margin-top: -1px;
     padding: 3px 10px;
@@ -57,23 +92,14 @@
     border: #111 solid 1px;
 }
 
-.resaltar{
-    background: rgb(33, 95, 153);
-}
-
-.text-add-estructur{
-    background: rgb(33, 95, 153);
-    /* margin-left: 10px; */
-}
-
 .ejemplos{
     padding: 10px;
     font-size: 18px;
-    background: rgb(37, 48, 56);
+    background: #32393f;
 }
 
 .ejemplo-completo{
-    background: rgb(46, 41, 32);
+    background: rgb(36, 53, 66);
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -130,4 +156,7 @@
     display: block;
     background-color: rgba(17, 65, 97, 0.2);
     margin-top: 20px;
+    border: #111 solid 1px;
+    border-radius: 15px;
+    padding: 6px;
 }
